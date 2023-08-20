@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+   
+
+}
+.header{
+    height: 45rem;
+    background-image:url('https://i.ibb.co/vXqDmnh/background.jpg') ;
+    background-size: cover;
+ 
+}
+
+.header::after{
+    content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: inset 120px 10px 150px #000000, inset -120px -100px 250px #000000;
+}
+
+.topheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 0;
+padding: 0;
+
+
+}
+#imgtopheader{
+    height: 3.5rem;
+    z-index: 2;
+    
+}
+/*button*/
+.headbtn
+{
+ position: relative;
+ margin-left: 90% ;
+ background-color: red;
+ color: white;
+ font-family: Arial, sans-serif;
+ font-size: 1.3rem;
+ font-weight: 500;
+height: 2rem;
+width: 8rem;
+border-radius: 0.5rem;
+cursor: pointer;
+transition: transform 0.3s;
+z-index: 2;
+
+}
+.headbtn:hover{
+    transform: scale(1.1);
+}
+
+/*content*/
+#content1{
+    font-weight: 900;
+    font-size: 5rem;
+    position: relative;
+    margin-top:5rem ;
+}
+.contents{
+display:block;
+position: relative;
+text-align: center;
+font-size: 4rem;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+z-index: 2;
+}
+
+
+#content2{
+    display:block;
+    position: relative;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    z-index: 2;
+    }
+    .contbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem; 
+        z-index: 2;  
+    }
+    .contentbtn{
+        padding:0.8rem;
+        font-size: 2rem;
+        text-decoration: none;
+        font-weight: 200;
+        color: white;
+    
+        background-color: red;
+        transition: transform 0.3s;
+        z-index: 2;
+
+    }
+    .contentbtn:hover{
+        transform: scale(1.1);
+    }
+    .section
+    {
+        margin-top: 1.2rem;
+        display: flex;
+        justify-content: space-around;
+        height: 8rem;
+        max-width: 100%;
+        background-color: rgba(20, 22, 21, 0.942);
+        font-size: larger;
+        
+    }
+    .tab{
+        margin-top: auto;
+        color: white;
+        width: 15rem;
+        border-bottom: 10px solid red;
+        transform: translate(3.3);
+
+    }
+    .tab:hover{
+    transform: scale(1.1);
+    }
+    .second-section
+    {
+        height: 30rem;
+        background-color: #000000;
+         color: aliceblue;
+    }
+#footimg1{
+    height: 20rem;
+    width: 30rem;
+    margin: 4rem 20rem 0 0;
+}
+.foottab1{
+    display: flex;
+    justify-content: space-around;
+}
+.foot-1-para{
+    max-width:30% ;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 8rem 0rem 0 11rem;
+}
+
+#footbtn{
+    font-size: x-large;
+    margin: 2rem;
+    padding: 0.8rem;
+    background-color: red;
+    transform: translate(3.3);
+
+}
+#atagfootbtn{
+    text-decoration: none;
+    background-color: red;
+    color: wheat;
+
+}
+#footbtn:hover{
+    transform: scale(1.1);
+
+}
